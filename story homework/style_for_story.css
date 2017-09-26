@@ -1,0 +1,32 @@
+
+h2{
+	font-family: "helvetica";
+	color: #F08080;
+	text-align: center;
+	background-color: #E0ffff
+}
+body{
+		background-color: #dcdcdc;
+
+}
+
+
+#body_one{
+	text-align: center;
+	font-size: 150%;
+	background-color: #d8bfd8
+}
+
+#body_two{
+	text-align: center;
+	font-size: 150%;
+	background-color: #b0c4de
+}
+a{
+	color: #000;
+}
+
+a:hover{
+	color: #fff;
+	background-color: #FFe4e1;
+}
