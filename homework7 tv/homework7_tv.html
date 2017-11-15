@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+#image{ 
+   background-image:url("giphy.gif", "giphy1.gif", "giphy2.gif", "giphy3.gif", "giphy4.gif", "giphy5.gif", "giphy6.gif");
+   background-size:100%;
+   background-repeat:no-repeat;
+   height: 100%;
+   width: 100%;
+}
+</style>
+</head>
+<body>
+<img id="image" src=" ">
+<script>
+
+var Array1 = ["giphy.gif", "giphy1.gif", "giphy2.gif", "giphy3.gif", "giphy4.gif", "giphy5.gif", "giphy6.gif"];
+var i = 0;
+document.body.addEventListener("keydown", function(event){
+	console.log(event);
+
+	if (event.key =="u"){
+		i=i+1; 
+
+		document.getElementById("image").src = Array1[i];
+
+		console.log(document.getElementById("image"));
+	}
+
+	if (event.key =="j"){
+	i=i-1;
+
+	document.getElementById("image").src = Array1[i];
+
+	console.log(document.getElementById("image"));
+
+	}
+});
+</script>
+</body>
+</html>
